@@ -1,7 +1,9 @@
+import { RoleEmployee } from "./role-employee";
+
 export interface Empployee {
     id: number;
     employeeNumber: number;
     name: string;
     lastName: string;
-    RoleId: number;
+    role: RoleEmployee[];
 }
